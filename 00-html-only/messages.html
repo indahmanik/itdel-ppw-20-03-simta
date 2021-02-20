@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<main>
+  <table width="100%" border="1">
+    <tr>
+        <th><img id="logo" src="pict/campus-logo.JPG" width="50px"/><b>Institut X</b></th>
+        <th align="left">
+          <div id="search-container" class="search-container">
+            <input placeholder="Search..." id="searchElement" type="search">
+            <button id="searchButtonElement" type="submit">Search</button>
+        </div>
+        </th>
+        <th>
+            <p>Hello, Students</p>
+        </th>
+    </tr>
+    <tr valign="top">
+       <td width="20%">
+          <br/><b>Navigation</b><br/>
+          <table border="1px">
+              <tr>
+                  <td>Home</td>
+              </tr>
+              <tr>
+                  <td>Profile</td>
+              </tr>
+              <tr>
+                  <td>Messages</td>
+              </tr>
+              <tr>
+                  <td>Uploads</td>
+              </tr>
+              <tr>
+                  <td>Progress</td>
+              </tr>
+              <tr>
+                  <td>Settings</td>
+              </tr>
+          </table>
+          <article>
+            <h3><span><center>Upcoming Events</center></span></h3>
+            <form action="/action_page.php" target="#">
+              <p><button type="submit" id="btnAddEvent">Create New Event</button></p>
+            </form>
+          </article>
+          <p>Ulang Tahun Katy P...</p>
+          <p align="right"> Sept 17 2020</p>
+          <p>Selesai Bab 1!!!</p>
+          <p align="right"> Sept 18 2020</p>
+          <p>Ulang Tahun Ariana...</p>
+          <p align="right"> Sept 19 2020</p>
+          <p>Selesai Bab 3!!!</p>
+          <p align="right"> Sept 20 2020</p>
+       </td>
+       
+       <td width="60%" height="200">
+        <br /><center>Messages</center>
+        <table width = 100% border="3" align="left">
+               <tr>
+                 <td width = 20% ><br /> <b>Message Navigation</b><br />
+                  <select name="connection" id="connections">
+                    <option value="conA">All </option>
+                    <option value="conB">Proffessors</option>
+                    <option value="conC">Students</option>
+                    <option value="conD">Class X</option>
+                  </select>
+                </td>
+                 <td width = 40%>
+                   <img id="logo" src="pict/prof.png" width="50px"/><b>(Professor Name)</b>
+                   <p>A Little Information About Them</p>
+                </td>
+               </tr>
+               
+               <tr>
+                <td width = 20%>
+                  <img id="logo" src="pict/prof.png" width="50px"/><b>(Professor Name)</b>
+                  <p>Last Sent</p>
+                </td>
+
+                <td>
+                  <table width = 20%>
+                    <tr width = 20%>
+                      <p>Text Messages</p>
+                    </tr>
+                  </table>
+                </td>
+               </tr>
+
+               <tr>
+                <td width = 20%>
+                  <img id="logo" src="pict/prof.png" width="50px"/><b>(Professor Name)</b>
+                  <p>Last Sent</p>
+                </td>
+               </tr>
+
+               <tr>
+                <td width = 20%>
+                  <img id="logo" src="pict/prof.png" width="50px"/><b>(Professor Name)</b>
+                  <p>Last Sent</p>
+                </td>
+               </tr>
+
+               <tr>
+                <td width = 20%>
+                  <img id="logo" src="pict/prof.png" width="50px"/><b>(Professor Name)</b>
+                  <p>Last Sent</p>
+                </td>
+
+                <td>
+                  <form action="/action_page.php">
+                    <input type="text" id="inputMessages" value="Write Something..."><br><br>
+                    <input type="submit" value="Submit">
+                  </form> 
+                </td>
+               </tr>
+
+        </table>
+       </td>
+
+       <td width="20%" height="200">
+           <br /><center>Your Tasks</center>
+           <table border="3" align="center">
+               <tr>
+                    <td>
+                        <form>
+                            <input type="date" id="task" name="task">
+                      </form>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <p>Task 1</p><br />
+                       <b>Revisi Dokumen Bab 1</b><br />
+                       (keterangan task)<br /><br />
+                       Deadline: 16 November 
+                   </td>
+               </tr>
+               <tr>
+                   <td>Task 2</td>
+               </tr>
+               <tr>
+                   <td>Task 3</td>
+               </tr>
+               <tr>
+                   <td>Task n</td>
+               </tr>                   
+         </table>
+</main>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+</script>
+
+</body>
+</html> 
